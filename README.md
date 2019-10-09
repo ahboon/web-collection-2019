@@ -14,5 +14,7 @@ To provision the web challenges, simply run ``bash web-chall-up.sh``
 - 8190 : NiftyHashing 
 - 8191 : Sourcerer 
 - 8192 : truthy 
-
+- 8193 : babysql
+- 8194 : unionsql
+- 8195 : blindsql
 
