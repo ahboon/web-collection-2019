@@ -26,5 +26,5 @@ sudo docker build -t babysql ./baby_sql
 sudo docker run -p 8193:80 -t -d babysql
 sudo docker build -t unionsql ./union_sql
 sudo docker run -p 8194:80 -t -d unionsql
-sudo docker build -t blindsql ./blindsql
+sudo docker build -t blindsql ./blind_sql
 sudo docker run -p 8195:80 -t -d blindsql
