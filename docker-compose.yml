@@ -1,0 +1,63 @@
+---
+version: 3
+services:
+  bankofwhitehacks:
+    build: BankOfWhitehacks
+    ports:
+      - "8181:80"
+  basic_sourcerer_85:
+    build: BAsic_SourcErer_85
+    ports:
+      - "8182:80"
+  captchycaptcha:
+    build: CaptchyCaptcha
+    ports:
+      - "8183:80"
+  commander:
+    build: Commander
+    ports:
+      - "8184:80"
+  commander2:
+    build: Commander2
+    ports:
+      - "8185:80"
+  commander3:
+    build: Commander3
+    ports:
+      - "8186:80"
+  commander4:
+    build: Commander4
+    ports:
+      - "8187:80"
+  commander5:
+    build: Commander5
+    ports:
+      - "8188:80"
+  globalextraction:
+    build: GlobalEXTRACTion
+    ports:
+      - "8189:80"
+  niftyhashing:
+    build: NiftyHashing
+    ports:
+      - "8190:80"
+  sourcerer:
+    build: Sourcerer
+    ports:
+      - "8191:80"
+  truthy:
+    build: truthy
+    ports:
+      - "8192:80"
+  babysql:
+    build: baby_sql
+    ports:
+      - "8193:80"
+  unionsql:
+    build: union_sql
+    ports:
+      - "8194:80"
+  blindsql:
+    build: blind_sql
+    ports:
+      - "8195:80"
